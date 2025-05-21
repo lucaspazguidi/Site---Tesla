@@ -196,5 +196,13 @@ footer p {
     .hamburguer {
         display: flex;
         order: 4;
+        margin-bottom: 15px;
+    }
+    .hamburguer:hover{
+        background-color: rgb(78, 78, 78);
+        border-radius: 70%;
+        transition:  background 0.5s ease;
+        padding: 10px;
+        transform: scale(1.1);
     }
 }
