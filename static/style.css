@@ -8,7 +8,7 @@ html {
     scroll-padding-top: 50px;
 }
 header {
-    background-color: black;
+    background-image: linear-gradient(to right, black, rgb(49, 49, 49), rgb(78, 78, 78));
     padding: 10px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -177,7 +177,6 @@ footer p {
     }
     .nav-right {
         flex-direction: column;
-        background: black;
         width: 100%;
         text-align: center;
         overflow: hidden;
